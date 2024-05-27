@@ -1,5 +1,7 @@
 This Repo includes a setup script for configuring Reverse SSH on the remote server and adding the application to unraid.
 
+For a complete guide to setting up reverse SSH, look at https://wiki.setupyour.cloud/en/Guides/External-Access-Using-Reverse-Proxies
+
 
 # Server Set Up
 
