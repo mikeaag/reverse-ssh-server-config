@@ -1,5 +1,5 @@
 #!/bin/bash
-configfile=/etc/ssh/sshd_config.d/reverse-ssh.sshd_conf
+configfile=/etc/ssh/sshd_config.d/reverse-ssh.conf
 
 touch $configfile
 echo 'Match User root' >> $configfile
