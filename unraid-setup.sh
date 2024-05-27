@@ -8,15 +8,15 @@ filename=reverse-ssh.xml
 config_url=https://raw.githubusercontent.com/mikeaag/unraid-docker-templates/master/templates/reverse-ssh.xml
 
 if [ ! -d "$dir_private" ]; then
-    mkdir private
+    mkdir $dir_private
 fi
 
 cd $dir_private
 
 if [ ! -d "$dir_reverse_ssh" ]; then
-    mkdir reverse-ssh
+    mkdir $dir_reverse_ssh
 fi
 
 cd $dir_reverse_ssh
 
-curl https://raw.githubusercontent.com/mikeaag/unraid-docker-templates/master/templates/reverse-ssh.xml > $filename
+curl $config_url > $filename
